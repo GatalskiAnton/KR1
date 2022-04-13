@@ -1,0 +1,13 @@
+﻿  Assembling module.asm...
+module.asm(1): error A2008: syntax error : .
+module.asm(8): error A2008: syntax error : .
+module.asm(38): error A2070: invalid instruction operands
+module.asm(39): error A2070: invalid instruction operands
+module.asm(40): error A2070: invalid instruction operands
+module.asm(53): error A2070: invalid instruction operands
+module.asm(54): error A2070: invalid instruction operands
+module.asm(55): error A2070: invalid instruction operands
+module.asm(95): error A2070: invalid instruction operands
+module.asm(77): error A2229: cannot use labels and 32-bit addressing in the same expression
+module.asm(86): error A2229: cannot use labels and 32-bit addressing in the same expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\module.obj" /W3 /errorReport:prompt  /Tamodule.asm" с кодом "1".
